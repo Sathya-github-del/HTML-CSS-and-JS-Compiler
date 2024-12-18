@@ -68,7 +68,7 @@ app.post("/compile", (req, res) => {
       break;
 
     default:
-      output = " <span style='color: #fff'>Unsupported language type, please use html or javascript.</span>";
+      output = " <span style='color: #fff'>Unsupported language type, please use html(use inline css for the css part) or javascript.</span>";
   }
 
   // Return the output as the compiled result
